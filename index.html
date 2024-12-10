@@ -39,29 +39,31 @@
 
         .hero-image {
             width: 100%;
-            max-width: 1654px;
             height: auto;
-            max-height: 2555px;
             object-fit: cover;
         }
 
         .content {
             margin-top: 20px;
+            text-align: center;
         }
 
         /* Media query for mobile devices */
         @media (max-width: 768px) {
-            .hero-image {
-                width: 100%;
-                height: auto;
-            }
-
-            main {
+            body {
                 padding: 10px;
             }
 
             header, footer {
-                padding: 10px;
+                padding: 15px;
+            }
+
+            .content h2 {
+                font-size: 1.5rem;
+            }
+
+            .content p {
+                font-size: 1rem;
             }
         }
     </style>
